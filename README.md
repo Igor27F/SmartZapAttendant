@@ -16,6 +16,16 @@
 
 ---
 
+## 🖼️ Imagens de demonstração
+
+![Demonstração de pedido](assets/pedido.png)
+
+![Demonstração de sugestões de produtos](assets/sugestoes.png)
+
+![Demonstração de dados salvos em baco para consistência](assets/dados.png)
+
+---
+
 ## 🎥 Demonstração em vídeo
 
 [![Clique para assistir ao vídeo](https://img.youtube.com/vi/mKghIDJBKYs/hqdefault.jpg)](https://youtu.be/mKghIDJBKYs)
