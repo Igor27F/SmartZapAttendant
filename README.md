@@ -20,6 +20,7 @@
 ### 1. Clone ou baixe o repositório
 
 **Via Git:**
+
 ```bash
 git clone https://github.com/Igor27F/SmartZapAttendant.git
 ```
@@ -40,7 +41,7 @@ Ou siga este [guia da Alura](https://www.alura.com.br/artigos/como-instalar-node
 
 ### 3. Instale as dependências
 
-Abra o terminal na pasta `bot` e execute:
+Abra o terminal na pasta do projeto e execute:
 
 ```bash
 cd bot
@@ -59,6 +60,7 @@ Dentro da pasta `cache`, edite os arquivos:
 - `produtos.txt`: liste os produtos disponíveis e seus respectivos preços.
 
 > 💡 Quanto mais conteúdo você incluir, melhor será a base de conhecimento da IA.
+> Esses arquivos precisam ter um mínimo de tokens para serem salvos no cache do Gemini
 
 ---
 
@@ -73,22 +75,22 @@ FACEBOOK_APP_SECRET=Segredo do seu app no Facebook Developer
 WHATSAPP_API_TOKEN=Token de acesso à API do WhatsApp (Meta)
 WHATSAPP_PHONE_NUMBER_ID=ID do número de telefone configurado na Meta
 WHATSAPP_VERIFY_TOKEN=Token de verificação que você definir
-WHATSAPP_API_URL=https://graph.facebook.com/v18.0
+WHATSAPP_API_URL=https://graph.facebook.com/v22.0
 PORT=3000
 NGROK_AUTH_TOKEN=Seu token do Ngrok
 ```
 
 ### 🔎 Como obter essas variáveis?
 
-| Variável | Onde conseguir |
-|---------|----------------|
-| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/app/apikey) |
-| `FACEBOOK_APP_ID` e `FACEBOOK_APP_SECRET` | [Meta for Developers](https://developers.facebook.com/) ao criar um app |
+| Variável                                         | Onde conseguir                                                                |
+| ------------------------------------------------ | ----------------------------------------------------------------------------- |
+| `GEMINI_API_KEY`                                 | [Google AI Studio](https://aistudio.google.com/app/apikey)                    |
+| `FACEBOOK_APP_ID` e `FACEBOOK_APP_SECRET`        | [Meta for Developers](https://developers.facebook.com/) ao criar um app       |
 | `WHATSAPP_API_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID` | No painel da [Meta Cloud API](https://developers.facebook.com/docs/whatsapp/) |
-| `WHATSAPP_VERIFY_TOKEN` | Você define esse valor ao configurar o webhook na Meta |
-| `WHATSAPP_API_URL` | Use `https://graph.facebook.com/v18.0` (ou a versão mais recente da Meta API) |
-| `PORT` | Porta de execução local (padrão: 3000) |
-| `NGROK_AUTH_TOKEN` | [Ngrok Dashboard](https://dashboard.ngrok.com/) após criar uma conta gratuita |
+| `WHATSAPP_VERIFY_TOKEN`                          | Você define esse valor ao configurar o webhook na Meta                        |
+| `WHATSAPP_API_URL`                               | Use `https://graph.facebook.com/v22.0` (ou a versão mais recente da Meta API) |
+| `PORT`                                           | Porta de execução local (padrão: 3000)                                        |
+| `NGROK_AUTH_TOKEN`                               | [Ngrok Dashboard](https://dashboard.ngrok.com/) após criar uma conta gratuita |
 
 ---
 
@@ -106,7 +108,7 @@ Se tudo estiver certo, o bot estará rodando e pronto para receber mensagens!
 
 ## 💬 Como testar
 
-1. Use o número de telefone configurado no app da Meta.
+1. Use o número de telefone configurado no app da Meta(pode ser o número de teste).
 2. Envie uma mensagem via WhatsApp para esse número.
 3. O bot responderá com base no contexto e nos produtos fornecidos.
 
@@ -117,13 +119,18 @@ Se tudo estiver certo, o bot estará rodando e pronto para receber mensagens!
 ```
 SmartZapAttendant/
 ├── bot/
-│   ├── cache/
-│   │   ├── contexto.txt
-│   │   └── produtos.txt
-│   ├── db/
-│   ├── services/
-│   ├── .env.example
+│   ├── node_modules/
+│   ├── .env
+│   ├── .gitignore
+│   ├── bot_logic.js
+│   ├── Client.js
+│   ├── db.js
+│   ├── package-lock.json
+│   ├── package.json
 │   └── server.js
+├── cache/
+│   ├── contexto.txt
+│   └── produtos.txt
 └── README.md
 ```
 
@@ -148,7 +155,7 @@ Sinta-se à vontade para contribuir com melhorias, ajustes e novas funcionalidad
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Igor F.**, engenheiro da computação e entusiasta em IA e automações.
+Desenvolvido por **Igor Henrique F. da Rocha**, engenheiro da computação e entusiasta em IA e automações.
 
 ---
 
