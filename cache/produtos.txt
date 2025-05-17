@@ -1,0 +1,710 @@
+Carnes Bovinas
+Corte/Tipo
+
+Preço por kg (R$)
+
+Filé Mignon
+
+89,90
+
+Contrafilé
+
+54,90
+
+Picanha
+
+79,90
+
+Alcatra
+
+49,90
+
+Coxão Mole
+
+39,90
+
+Coxão Duro
+
+34,90
+
+Patinho
+
+37,90
+
+Maminha
+
+47,90
+
+Fraldinha
+
+52,90
+
+Costela Bovina (Ripinha)
+
+29,90
+
+Costela Janela
+
+32,90
+
+Acém
+
+27,90
+
+Peito Bovino
+
+26,90
+
+Paleta
+
+33,90
+
+Cupim
+
+44,90
+
+T-Bone
+
+69,90
+
+Prime Rib
+
+74,90
+
+Chuleta
+
+59,90
+
+Ossobuco
+
+24,90
+
+Rabo Bovino
+
+22,90
+
+Carne Moída (1ª Qualidade)
+
+29,90
+
+Carne Moída (2ª Qualidade)
+
+24,90
+
+Língua Bovina
+
+19,90
+
+Fígado Bovino
+
+14,90
+
+Coração Bovino
+
+17,90
+
+Carnes Suínas
+Corte/Tipo
+
+Preço por kg (R$)
+
+Lombo Suíno
+
+29,90
+
+Costelinha Suína
+
+34,90
+
+Pernil Suíno (com osso)
+
+24,90
+
+Pernil Suíno (desossado)
+
+29,90
+
+Panceta
+
+39,90
+
+Barriga Suína
+
+32,90
+
+Bisteca Suína
+
+27,90
+
+Filé Mignon Suíno
+
+34,90
+
+Paleta Suína
+
+22,90
+
+Pé de Porco
+
+12,90
+
+Orelha Suína
+
+14,90
+
+Rabo Suíno
+
+15,90
+
+Toucinho
+
+19,90
+
+Carne Moída Suína
+
+25,90
+
+Carnes de Frango
+Corte/Tipo
+
+Preço por kg (R$)
+
+Peito de Frango (sem osso)
+
+22,90
+
+Peito de Frango (com osso)
+
+18,90
+
+Coxa e Sobrecoxa (com osso)
+
+14,90
+
+Coxa e Sobrecoxa (desossada)
+
+19,90
+
+Asa de Frango
+
+17,90
+
+Coxinha da Asa
+
+21,90
+
+Frango Inteiro
+
+12,90
+
+Filé de Peito de Frango
+
+24,90
+
+Coração de Frango
+
+15,90
+
+Moela de Frango
+
+11,90
+
+Fígado de Frango
+
+9,90
+
+Pés de Frango
+
+8,90
+
+Peixes
+Tipo
+
+Preço por kg (R$)
+
+Salmão (filé)
+
+89,90
+
+Tilápia (filé)
+
+29,90
+
+Tilápia (inteira)
+
+19,90
+
+Sardinha (fresca)
+
+12,90
+
+Corvina (filé)
+
+34,90
+
+Corvina (inteira)
+
+24,90
+
+Pintado (filé)
+
+39,90
+
+Tambaqui (inteiro)
+
+22,90
+
+Tambaqui (posta)
+
+29,90
+
+Atum (filé)
+
+79,90
+
+Bacalhau (dessalgado)
+
+99,90
+
+Bacalhau (salgado)
+
+79,90
+
+Merluza (filé)
+
+27,90
+
+Dourado (inteiro)
+
+26,90
+
+Dourado (filé)
+
+34,90
+
+Anchova (inteira)
+
+19,90
+
+Cavala (inteira)
+
+15,90
+
+Robalo (filé)
+
+49,90
+
+Tainha (inteira)
+
+17,90
+
+Frutos do Mar
+Tipo
+
+Preço por kg (R$)
+
+Camarão (médio, sem casca)
+
+69,90
+
+Camarão (grande, sem casca)
+
+89,90
+
+Camarão (inteiro, com casca)
+
+49,90
+
+Lula (anéis)
+
+39,90
+
+Lula (inteira)
+
+29,90
+
+Polvo
+
+79,90
+
+Mexilhão (com casca)
+
+24,90
+
+Mexilhão (sem casca)
+
+34,90
+
+Siri (carne)
+
+44,90
+
+Caranguejo (inteiro)
+
+29,90
+
+Lagosta (cauda)
+
+129,90
+
+Ostras (unidade, preço por dúzia)
+
+36,00
+
+Carnes de Cordeiro e Outras Ovinas
+Corte/Tipo
+
+Preço por kg (R$)
+
+Pernil de Cordeiro
+
+69,90
+
+Paleta de Cordeiro
+
+59,90
+
+Costeleta de Cordeiro
+
+79,90
+
+Lombo de Cordeiro
+
+74,90
+
+Carne Moída de Cordeiro
+
+49,90
+
+Pescoço de Cordeiro
+
+29,90
+
+Carne de Carneiro (pernil)
+
+54,90
+
+Carne de Carneiro (costela)
+
+39,90
+
+Carnes de Aves Exóticas
+Tipo
+
+Preço por kg (R$)
+
+Peito de Pato
+
+89,90
+
+Coxa de Pato
+
+79,90
+
+Peru (peito)
+
+39,90
+
+Peru (coxa)
+
+29,90
+
+Codorna (inteira)
+
+49,90
+
+Faisão (inteiro)
+
+99,90
+
+Avestruz (filé)
+
+129,90
+
+Carnes Exóticas e de Caça
+Tipo
+
+Preço por kg (R$)
+
+Jacaré (cauda)
+
+89,90
+
+Jacaré (carne moída)
+
+69,90
+
+Javali (pernil)
+
+79,90
+
+Javali (costela)
+
+59,90
+
+Capivara (lombo)
+
+99,90
+
+Veado (filé)
+
+109,90
+
+Coelho (inteiro)
+
+49,90
+
+Coelho (desossado)
+
+59,90
+
+Rã (coxa)
+
+69,90
+
+Embutidos e Processados
+Tipo
+
+Preço por kg (R$)
+
+Linguiça Toscana
+
+29,90
+
+Linguiça Calabresa
+
+27,90
+
+Linguiça de Frango
+
+24,90
+
+Salsicha (tipo Viena)
+
+19,90
+
+Presunto Cru
+
+89,90
+
+Presunto Cozido
+
+34,90
+
+Salame Italiano
+
+59,90
+
+Mortadela
+
+22,90
+
+Bacon
+
+39,90
+
+Peperoni
+
+49,90
+
+Chouriço
+
+44,90
+
+Pães
+Tipo
+
+Preço (R$)
+
+Pão Francês (unidade)
+
+0,79
+
+Pão Francês (kg)
+
+14,90
+
+Pão de Forma (tradicional, 500g)
+
+8,90
+
+Pão de Forma Integral (500g)
+
+10,90
+
+Pão Australiano (500g)
+
+12,90
+
+Pão Italiano (unidade, 400g)
+
+9,90
+
+Pão Ciabatta (unidade, 300g)
+
+7,90
+
+Pão de Centeio (500g)
+
+11,90
+
+Pão de Milho (400g)
+
+8,90
+
+Pão de Batata (unidade, 100g)
+
+2,50
+
+Pão de Queijo (unidade, 50g)
+
+2,90
+
+Pão de Queijo (kg)
+
+49,90
+
+Pão Integral com Grãos (500g)
+
+13,90
+
+Pão de Fermentação Natural (500g)
+
+15,90
+
+Pão de Nozes e Passas (400g)
+
+14,90
+
+Pão de Azeitona (400g)
+
+12,90
+
+Pão Sírio (pacote com 5, 300g)
+
+6,90
+
+Pão de Hot Dog (pacote com 6)
+
+7,90
+
+Pão de Hambúrguer (pacote com 4)
+
+8,90
+
+Baguete Tradicional (unidade, 300g)
+
+6,90
+
+Baguete Integral (unidade, 300g)
+
+8,90
+
+Salgados
+Tipo
+
+Preço por unidade (R$)
+
+Coxinha de Frango
+
+4,90
+
+Coxinha de Frango com Catupiry
+
+5,90
+
+Risole de Carne
+
+4,50
+
+Risole de Presunto e Queijo
+
+4,50
+
+Esfiha de Carne
+
+4,90
+
+Esfiha de Frango
+
+4,90
+
+Esfiha de Calabresa
+
+5,20
+
+Esfiha de Queijo
+
+4,90
+
+Pastel de Carne (frito)
+
+5,50
+
+Pastel de Queijo (frito)
+
+5,50
+
+Pastel de Palmito (frito)
+
+5,90
+
+Empada de Frango
+
+4,90
+
+Empada de Palmito
+
+5,20
+
+Empada de Camarão
+
+6,90
+
+Quibe Frito
+
+4,90
+
+Bolinho de Bacalhau
+
+6,50
+
+Croquete de Carne
+
+4,50
+
+Enroladinho de Salsicha
+
+3,90
+
+Pão de Batata com Frango
+
+5,90
+
+Folhado de Presunto e Queijo
+
+6,90
+
+Mini Pizza de Mussarela
+
+7,90
+
+Mini Pizza de Calabresa
+
+8,50
+
+
+
+Temos milanesa bovino, de frango, suíno e de peixe
+Temos rolè bovino, suíno e de frango
+Temos Strogonoff bovino e de frango
+Temos carne moída de frango, bovina e suína
+Temos rocambole bovino, de frango e suíno
+Rocambole bovino recheado com presunto e queijo 
+Rocambole suíno recheado com calabresa, cenoura e bacon
+Rocambole de Frango Recheado com presunto e Queijo
+rocambole de frango recheado com cheddar
+rocambole de frango recheado com calabresa
+rocambole de frango recheado com ricota
+rocambole de frango recheado com minas e tomate (napolitano)
+Temos frango desossado recheado com massa de kafta de frango
