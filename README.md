@@ -7,11 +7,18 @@
 ## 🚀 Funcionalidades
 
 - Atendimento automatizado e contextualizado via WhatsApp
+- Resposta para mensagens de texto e áudio
 - Memória de conversas e preferências dos clientes
 - Histórico de mensagens e logs de interações
 - Fácil personalização das regras de negócio
 - Armazenamento local com SQLite
 - Integração com a API Gemini da Google
+
+---
+
+## 🎥 Demonstração em vídeo
+
+[![Clique para assistir ao vídeo](https://img.youtube.com/vi/mKghIDJBKYs/hqdefault.jpg)](https://youtu.be/mKghIDJBKYs)
 
 ---
 
