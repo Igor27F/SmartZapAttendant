@@ -87,7 +87,7 @@ NGROK_AUTH_TOKEN=Seu token do Ngrok
 | `GEMINI_API_KEY`                                 | [Google AI Studio](https://aistudio.google.com/app/apikey)                    |
 | `FACEBOOK_APP_ID` e `FACEBOOK_APP_SECRET`        | [Meta for Developers](https://developers.facebook.com/) ao criar um app       |
 | `WHATSAPP_API_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID` | No painel da [Meta Cloud API](https://developers.facebook.com/docs/whatsapp/) |
-| `WHATSAPP_VERIFY_TOKEN`                          | Você define esse valor ao configurar o webhook na Meta                        |
+| `WHATSAPP_VERIFY_TOKEN`                          | Você define o valor que quiser para esse token                                |
 | `WHATSAPP_API_URL`                               | Use `https://graph.facebook.com/v22.0` (ou a versão mais recente da Meta API) |
 | `PORT`                                           | Porta de execução local (padrão: 3000)                                        |
 | `NGROK_AUTH_TOKEN`                               | [Ngrok Dashboard](https://dashboard.ngrok.com/) após criar uma conta gratuita |

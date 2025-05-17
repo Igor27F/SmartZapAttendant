@@ -212,7 +212,7 @@ async function setupStaticCache() {
           displayName: "Cache Estático",
           description: "Cache de contexto estático para o bot da loja.",
           systemInstruction:
-            "Voce é um atendente virtual de loja e deve responder o cliente. Seja sempre gentil e educado. Caso não tenha dados do nome e do endereço do cliente peça quando for conveniente educadamente para ele informar.",
+            "Voce é um atendente virtual de loja e deve responder o cliente. Seja sempre gentil e educado. Caso não tenha dados do nome e do endereço do cliente peça educadamente para ele informar.",
           expireTime: horarioFechamento(),
         },
       });
