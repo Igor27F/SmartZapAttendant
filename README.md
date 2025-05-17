@@ -20,6 +20,8 @@
 
 [![Clique para assistir ao vídeo](https://img.youtube.com/vi/mKghIDJBKYs/hqdefault.jpg)](https://youtu.be/mKghIDJBKYs)
 
+👉 [Clique aqui para assistir no YouTube](https://youtu.be/mKghIDJBKYs)
+
 ---
 
 ## 🛠️ Como usar
