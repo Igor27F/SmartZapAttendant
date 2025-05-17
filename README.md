@@ -1,39 +1,157 @@
-OLÁ, BEM VINDO AO SMART ZAP ATTENDANT!!
+# 🤖 SmartZap Attendant
 
-ESTE É UM BOT CONSTRUÍDO DURANTE A IMERSÃO DA ALURA PARA AUXILIAR NO ATENDIMENTO DE CLIENTES PELO WHATSAPP.
+**SmartZap Attendant** é um bot inteligente de atendimento via WhatsApp, desenvolvido durante a Imersão da Alura. Ele utiliza inteligência artificial (Gemini) para responder dúvidas de clientes com base nas regras e informações da sua loja.
 
-PARA COMEÇAR A USAR O BOT SIGA O SEGUINTE PASSO A PASSO:
+---
 
-1. BAIXE O PROGRAMA NA SUA MAQUINA LOCAL:
-   PARA ISSO VOCÊ PODE BAIXAR A PASTA E EXTRAIR OS ARQUIVOS OU CLONAR O REPOSITORIO.
-   CASO PREFIRA BAIXAR, SIMPLESMENTE CLIQUE EM "CODE" E EM SEGUIDA "DOWNLOAD ZIP". O ARQUIVO SERA BAIXADO E DEVE SER EXTRAÍDO NA PASTA DESEJADA.
-   CASO QUEIRA CLONAR, COPIE A URL DO GIT DO PROJETO QUE É "https://github.com/Igor27F/SmartZapAttendant.git", ENTÃO ABRA ALGUMA JANELA DE LINHA DE COMANDO NA PASTA DESEJADA E USE O COMANDO GIT CLONE https://github.com/Igor27F/SmartZapAttendant.git
+## 🚀 Funcionalidades
 
-2. INSTALE AS DEPENDENCIAS:
-   2.1 PRIMEIRO DE TUDO VOCE PRECISA INSTALAR O NODE.JS CASO AINDA NÃO O TENHA. PARA ISSO BASTA BAIXAR E INSTALAR ATRAVÉS DO SITE OFICIAL QUE É: https://nodejs.org/pt
-   CASO TENHA ALGUM PROBLEMA OU DÚVIDA, AQUI ESTÁ O LINK DE UM ARTIGO DO ALURA EXPLICANDO MAIS DETALHADAMENTE COMO INSTALAR EM CADA SISTEMA OPERACIONAL: https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos
-   2.2 TENDO O NODE INSTALADO ABRA UMA JANELA DE LINHA DE COMANDO(PODE SER PROMPT DE COMANDO, POWERSHELL OU QUALQUER OUTRO QUE RECONHEÇA O NODE) NA PASTA DO PROJETO, CASO ESTEJA NA PASTA PRINCIPAL, VÁ PARA A PASTA "bot" USANDO O COMANDO "cd bot". EXECUTE O COMANDO NPM INSTALL. COM ISSO TODAS AS DEPENDENCIAS DO PROJETO VÃO SER INSTALADAS.
+- Atendimento automatizado e contextualizado via WhatsApp
+- Memória de conversas e preferências dos clientes
+- Histórico de mensagens e logs de interações
+- Fácil personalização das regras de negócio
+- Armazenamento local com SQLite
+- Integração com a API Gemini da Google
 
-3. CRIE SEU PROPRIO CACHE:
-   PARA O PROGRAMA CONHECER OS PRODUTOS DA SUA LOJA COM OS RESPECTIVOS PREÇOS, TODAS AS REGRAS DE NEGÓCIO, E TUDO MAIS QUE VOCE QUER QUE O ATENDENTE RESPONDA, É NECESSÁRIO DAR ESSAS INFORMAÇÕES PARA O GEMINI. ELAS VÃO FICAR GUARDADAS NA MEMÓRIA(CACHE) PARA NÃO PRECISAR SEREM REENVIADAS EM CADA PROMPT.
-   DENTRO DA PASTA "CACHE" EXISTEM DOIS ARQUIVOS DE TEXTO: "produtos.txt" E "contexto.txt", VOCÊ PODE APAGAR TODAS AS INFORMAÇÕES CONTIDAS NESSES ARQUIVOS(QUE JÁ VEM COMO EXEMPLO) E COLOCAR AS INFORMAÇÕES RELACIONADAS AO SEU NEGÓCIO.
+---
 
-   - UM PONTO DE ATENÇÃO É QUE ESSES ARQUIVOS PRECISAM TER UM MÍNIMO DE TOKENS(PRECISAR TER MUITOS TEXTOS) PARA SEREM GUARDADOS NA MEMÓRIA DO GEMINI. ENTÃO PODE COLOCAR O MÁXIMO DE INFORMAÇÕES E PRODUTOS QUE CONSEGUIR RELACIONADOS A SUA LOJA SEM DÓ!!
+## 🛠️ Como usar
 
-4. CONFIGURE AS VARIÁVEIS DE AMBIENTE:
-   4.1 DENTRO DA PASTA "bot" CRIE UM ARQUIVO COM O NOME ".env".
-   4.2 COLOQUE NELE TODAS AS SEGUINTES VARIÁVEIS:
-   GEMINI_API_KEY={chave da api do Gemini}
-   FACEBOOK_APP_ID={ID do aplicativo do Facebook (Meta Cloud API ou BSP)}
-   FACEBOOK_APP_SECRET={Segredo do aplicativo do Facebook (Meta Cloud API ou BSP)}
-   WHATSAPP_API_TOKEN={Token de acesso permanente gerado}
-   WHATSAPP_PHONE_NUMBER_ID={ID do número de telefone registrado}
-   WHATSAPP_VERIFY_TOKEN={Token que VOCÊ define na Meta/BSP}
-   WHATSAPP_API_URL={URL da API do WhatsApp (Meta Cloud API ou BSP) com a versão utilizada, atualmente é: https://graph.facebook.com/v22.0}
-   PORT={Porta para rodar a aplicação(3000 por padrão)}
-   NGROK_AUTH_TOKEN={Token de autenticação do ngrok}
+### 1. Clone ou baixe o repositório
 
-5. EXECUTE O ARQUIVO "server.js":
-   5.1 POR FIM, PARA FINALMENTE INICIAR A APLICAÇÃO, DENTRO DE UMA JANELA DE LINHA DE COMANDO, CONFIRME SE ESTÁ DENTRO DA PASTA "bot", CASO NÃO ESTÁ USE NOVAMENTE O "cd bot" E ENTÃO EXECUTE O SEGUINTE COMANDO "node server.js" PARA EXECUTAR O ARQUIVO PRINCIPAL QUE DARÁ INÍCIO AO PROGRAMA
-   5.2 CASO TENHA ALGUM TIPO DE ERRO OU FALHA, PRESTE ATENÇÃO NOS LOGS DETALHADOS QUE VÃO AJUDÁ-LO A CORRIGIR.
-   5.3 ENVIE UMA MENSAGEM DO SEU WHATSAPP PARA O NÚMERO DO WHATSAPP LINKADO COM A APLICAÇÃO PARA TESTAR.
+**Via Git:**
+```bash
+git clone https://github.com/Igor27F/SmartZapAttendant.git
+```
+
+**Ou baixe o ZIP diretamente no botão verde `Code > Download ZIP`.**
+
+---
+
+### 2. Instale o Node.js
+
+Se ainda não tiver o Node.js instalado, baixe pelo site oficial:
+
+🔗 [https://nodejs.org/](https://nodejs.org/)
+
+Ou siga este [guia da Alura](https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos).
+
+---
+
+### 3. Instale as dependências
+
+Abra o terminal na pasta `bot` e execute:
+
+```bash
+cd bot
+npm install
+```
+
+---
+
+### 4. Configure os arquivos de cache
+
+O bot precisa de informações da sua loja para responder com precisão. Essas informações são carregadas na memória da IA.
+
+Dentro da pasta `cache`, edite os arquivos:
+
+- `contexto.txt`: coloque informações gerais sobre sua empresa, regras de atendimento, horário de funcionamento etc.
+- `produtos.txt`: liste os produtos disponíveis e seus respectivos preços.
+
+> 💡 Quanto mais conteúdo você incluir, melhor será a base de conhecimento da IA.
+
+---
+
+### 5. Crie o arquivo `.env`
+
+Na pasta `bot`, crie um arquivo `.env` com as seguintes variáveis:
+
+```env
+GEMINI_API_KEY=Sua chave da API Gemini (Google AI Studio)
+FACEBOOK_APP_ID=ID do seu app criado no Facebook Developer
+FACEBOOK_APP_SECRET=Segredo do seu app no Facebook Developer
+WHATSAPP_API_TOKEN=Token de acesso à API do WhatsApp (Meta)
+WHATSAPP_PHONE_NUMBER_ID=ID do número de telefone configurado na Meta
+WHATSAPP_VERIFY_TOKEN=Token de verificação que você definir
+WHATSAPP_API_URL=https://graph.facebook.com/v18.0
+PORT=3000
+NGROK_AUTH_TOKEN=Seu token do Ngrok
+```
+
+### 🔎 Como obter essas variáveis?
+
+| Variável | Onde conseguir |
+|---------|----------------|
+| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/app/apikey) |
+| `FACEBOOK_APP_ID` e `FACEBOOK_APP_SECRET` | [Meta for Developers](https://developers.facebook.com/) ao criar um app |
+| `WHATSAPP_API_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID` | No painel da [Meta Cloud API](https://developers.facebook.com/docs/whatsapp/) |
+| `WHATSAPP_VERIFY_TOKEN` | Você define esse valor ao configurar o webhook na Meta |
+| `WHATSAPP_API_URL` | Use `https://graph.facebook.com/v18.0` (ou a versão mais recente da Meta API) |
+| `PORT` | Porta de execução local (padrão: 3000) |
+| `NGROK_AUTH_TOKEN` | [Ngrok Dashboard](https://dashboard.ngrok.com/) após criar uma conta gratuita |
+
+---
+
+### 6. Execute o bot
+
+No terminal, dentro da pasta `bot`, execute:
+
+```bash
+node server.js
+```
+
+Se tudo estiver certo, o bot estará rodando e pronto para receber mensagens!
+
+---
+
+## 💬 Como testar
+
+1. Use o número de telefone configurado no app da Meta.
+2. Envie uma mensagem via WhatsApp para esse número.
+3. O bot responderá com base no contexto e nos produtos fornecidos.
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+SmartZapAttendant/
+├── bot/
+│   ├── cache/
+│   │   ├── contexto.txt
+│   │   └── produtos.txt
+│   ├── db/
+│   ├── services/
+│   ├── .env.example
+│   └── server.js
+└── README.md
+```
+
+---
+
+## 🧠 Tecnologias utilizadas
+
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [SQLite3](https://www.sqlite.org/index.html)
+- [Ngrok](https://ngrok.com/)
+- [Meta WhatsApp Cloud API](https://developers.facebook.com/docs/whatsapp/)
+- [Gemini API (Google AI)](https://aistudio.google.com/)
+
+---
+
+## 📌 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, ajustes e novas funcionalidades!
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Igor F.**, engenheiro da computação e entusiasta em IA e automações.
+
+---
+
+## 🏆 Projeto participante da Imersão Alura
+
+Este projeto faz parte da **Imersão Alura**, um evento para desenvolvedores que buscam criar soluções reais e impactantes com tecnologia moderna.
